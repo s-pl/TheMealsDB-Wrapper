@@ -20,16 +20,16 @@ function HomePage() {
       </div>
       <div className="home-highlights">
         <article>
-          <h2>Experiencia cuidada</h2>
-          <p>Aplicamos principios de usabilidad para que encuentres tu plato ideal sin complicaciones.</p>
+          <h2>Animación con GSAP</h2>
+          <p>La Navbar tiene una pequeña animación gracias a GSAP</p>
         </article>
         <article>
-          <h2>Ingredientes locales</h2>
-          <p>Trabajamos con productores cercanos para garantizar frescura y sabor en cada bocado.</p>
+          <h2>IA Local</h2>
+          <p>Si usas la versión de chrome 138 y tu PC es compatible, se descargará un modelo de IA proporcionado en la última versión de Chrome para traducir la descripción del plato.</p>
         </article>
         <article>
           <h2>Opciones para todos</h2>
-          <p>Filtra por categoría o busca tu plato favorito para organizar la próxima comida en casa.</p>
+          <p>Cuenta con filtros para poder ordenar por tu tipo de comida favorito</p>
         </article>
       </div>
     </section>
