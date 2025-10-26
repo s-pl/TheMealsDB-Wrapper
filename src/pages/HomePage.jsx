@@ -4,7 +4,7 @@ function HomePage() {
   return (
     <section className="page home-page">
       <div className="home-hero">
-        <h1>Sabores frescos del mar a tu mesa</h1>
+        <h1>Recopilación de sabores mundiales de mano de TheMealsDB</h1>
         <p>
           Descubre platos caseros elaborados con ingredientes de temporada y una carta que
           cambia según la pesca del día. Explora nuestro menú digital y reserva tus favoritos.
