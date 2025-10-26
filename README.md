@@ -1,9 +1,8 @@
-# Restaurante Mar y Sol — SPA de menú interactivo
+# TheMealsDB Wrapper
 
 Aplicación de una sola página construida con React y Vite para practicar consumo de APIs, enrutamiento y gestión de estados de carga y error. El menú se alimenta de datos públicos de [TheMealDB](https://www.themealdb.com) e incorpora precios generados en cliente.
 
 ## Características
-
 - Listado de platos con nombre, imagen, categoría y precio inventado.
 - Carga de datos mediante `fetch` y `useEffect`, con estados de *loading* y error.
 - Navegación con React Router: inicio, listado completo, categorías, detalle del plato y rutas dinámicas.
@@ -35,7 +34,7 @@ Aplicación de una sola página construida con React y Vite para practicar consu
 - `src/pages/` — páginas y rutas (`HomePage`, `MealsPage`, `CategoriesPage`, etc.).
 - `src/utils/` — utilidades para normalizar datos y calcular precios.
 
-## Notas de desarrollo
+## Notas
 
-- Los precios se calculan localmente a partir del `idMeal` para mantener consistencia entre sesiones.
-- Puedes extender la aplicación con buscador avanzado, ordenación por precio u otras mejoras de usabilidad.
+- Los precios se calculan localmente a partir del `idMeal` para mantener consistencia entre la pagina general y la de detalles.
+- Si usas la versión de chrome 138 y tu PC es compatible, se descargará un modelo de IA proporcionado en la última versión de Chrome para traducir la descripción del plato.
